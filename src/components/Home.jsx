@@ -10,6 +10,7 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-amber-600"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Front End Developer
@@ -18,7 +19,7 @@ const Home = () => {
             I am a college student who is passionate about coding and applications of it like web development, app development, etc. I have basic knowledge of C++, Java, Html, CSS, Javascript, Kotlin and React. I am also interested in Back-End Development.
           </p>
 
-          <div>
+        <div>
             <Link
               to="portfolio"
               smooth
@@ -29,8 +30,10 @@ const Home = () => {
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
+              
             </Link>
           </div>
+
         </div>
 
         <div>
