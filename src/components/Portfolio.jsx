@@ -13,15 +13,18 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: diceImage
+      src: diceImage,
+      text: "Dice-Roller Game"
     },
     {
       id: 2,
-      src: portfolioImage
+      src: portfolioImage,
+      text: "Portfolio"
     },
     {
       id: 3,
-      src: memeImage
+      src: memeImage,
+      text: "Meme Generator"
     },
   ];
 
@@ -39,12 +42,12 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, text }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 w-full h-44"
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
@@ -54,6 +57,7 @@ const Portfolio = () => {
                   Code
                 </button>
               </div>
+              <p className="text-center font-bold">{text}</p>
             </div>
           ))}
         </div>
