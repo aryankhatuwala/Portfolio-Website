@@ -8,6 +8,12 @@ import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import cpp from "../assets/c++.png";
+import java from "../assets/java.png";
+import bootstrap from "../assets/bootstrap.png";
+import mongodb from "../assets/mongodb.png";
+// import expressjs from "../assets/express.png";
+import nodejs from "../assets/nodejs.png";
 
 const Experience = () => {
   const techs = [
@@ -31,6 +37,12 @@ const Experience = () => {
     },
     {
       id: 4,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 4,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
@@ -39,20 +51,38 @@ const Experience = () => {
       id: 5,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-sky-400",
+      style: "shadow-orange-400",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
+      src: nodejs,
+      title: "Node JS",
       style: "shadow-white",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-red-400",
     },
+     {
+      id: 9,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 10,
+      src: cpp,
+      title: "CPP",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 11,
+      src: java,
+      title: "Java",
+      style: "shadow-blue-500",
+    }
   ];
 
   return (
@@ -65,16 +95,16 @@ const Experience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">I have basic knowledge of:</p>
+       
         </div>
-
+ <br />
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt="" className="w-20 mx-auto " />
               <p className="mt-4">{title}</p>
             </div>
           ))}

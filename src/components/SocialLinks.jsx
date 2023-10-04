@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/",
+      href: "https://github.com/aryankhatuwala",
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "./ARYAN_RESUME.pdf",
+      href: "./RESUME ARYAN KHATUWALA 2.pdf",
       style: "rounded-br-md",
       download: true,
     },

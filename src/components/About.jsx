@@ -13,24 +13,16 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+         <p className="text-xl">
+          I am a third-year student at Vellore Institute of Technology (VIT), Vellore, passionate about technology and software development. My skill set includes proficiency in programming languages such as C++, Java, and C, along with a deep understanding of Data Structures and Algorithms.
         </p>
-
         <br />
-
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+         As a full-stack developer, I have experience working with a wide range of technologies, including HTML, CSS, JavaScript, MongoDB, ExpressJS, ReactJS, NodeJS, as well as CSS frameworks like Tailwind CSS and Bootstrap. My knowledge extends to areas like SQL, operating systems, database systems, and computer networks, making me well-rounded in various aspects of computer science.
+        </p>
+        <br />
+         <p className="text-xl">
+         Currently, I am actively pursuing my AWS Cloud Practitioner certification to expand my cloud computing expertise. Throughout my academic journey, I have undertaken numerous projects, applying my skills to create practical solutions and gain hands-on experience in the field of technology.
         </p>
       </div>
     </div>

@@ -5,38 +5,24 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import portfolioImage from "../assets/portfolio/portfolioImage.jpg"
+import portfolioImage from "../assets/portfolio/portfolio-image.png"
+import diceImage from "../assets/portfolio/dice-roller-image.png"
+import memeImage from "../assets/portfolio/meme-generator-image.png"
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: diceImage
+    },
+    {
+      id: 2,
       src: portfolioImage
-    }
-    // {
-    //   id: 1,
-    //   src: arrayDestruct,
-    // },
-    // {
-    //   id: 2,
-    //   src: reactParallax,
-    // },
-    // {
-    //   id: 3,
-    //   src: navbar,
-    // },
-    // {
-    //   id: 4,
-    //   src: reactSmooth,
-    // },
-    // {
-    //   id: 5,
-    //   src: installNode,
-    // },
-    // {
-    //   id: 6,
-    //   src: reactWeather,
-    // },
+    },
+    {
+      id: 3,
+      src: memeImage
+    },
   ];
 
   return (

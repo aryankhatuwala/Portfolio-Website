@@ -3,6 +3,7 @@ import HeroImage from "../assets/portfolio/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
+
 const Home = () => {
   return (
     <div
@@ -13,10 +14,10 @@ const Home = () => {
 
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Front End Developer
+            I'm a Full-Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a college student who is passionate about coding and applications of it like web development, app development, etc. I have basic knowledge of C++, Java, Html, CSS, Javascript, Kotlin and React. I am also interested in Back-End Development.
+            I'm a passionate third-year student of software engineering, skilled in full-stack development and eager to make a positive impact through technology.
           </p>
 
         <div>
