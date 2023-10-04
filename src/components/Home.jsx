@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/portfolio/heroImage.JPG";
+import HeroImage from "../assets/portfolio/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
