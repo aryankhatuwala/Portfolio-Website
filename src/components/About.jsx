@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
          <p className="text-xl">
-          I am a third-year student at Vellore Institute of Technology (VIT), Vellore, passionate about technology and software development. My skill set includes proficiency in programming languages such as C++, Java, and C, along with a deep understanding of Data Structures and Algorithms.
+          I am a fourth-year student at Vellore Institute of Technology (VIT), Vellore, passionate about technology and software development. My skill set includes proficiency in programming languages such as C++, Java, and C, along with a deep understanding of Data Structures and Algorithms.
         </p>
         <br />
         <p className="text-xl">
@@ -22,7 +22,7 @@ const About = () => {
         </p>
         <br />
          <p className="text-xl">
-         Currently, I am actively pursuing my AWS Cloud Practitioner certification to expand my cloud computing expertise. Throughout my academic journey, I have undertaken numerous projects, applying my skills to create practical solutions and gain hands-on experience in the field of technology.
+        Currently, I am an AWS Cloud Practitioner, having pursued and obtained my certification to expand my cloud computing expertise. Throughout my academic journey, I have undertaken numerous projects, applying my skills to create practical solutions and gain hands-on experience in the field of technology.
         </p>
       </div>
     </div>
