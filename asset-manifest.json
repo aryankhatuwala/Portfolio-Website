@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.11a12cf4.css",
-    "main.js": "/Portfolio-Website/static/js/main.9390539e.js",
+    "main.js": "/Portfolio-Website/static/js/main.82ef947c.js",
     "static/media/bloodBank.png": "/Portfolio-Website/static/media/bloodBank.8f9f311af19e14e41956.png",
     "static/media/c++.png": "/Portfolio-Website/static/media/c++.666af1b3598c92045b63.png",
     "static/media/campusCompanion.png": "/Portfolio-Website/static/media/campusCompanion.c47569807e1d353ae791.png",
@@ -22,10 +22,10 @@
     "static/media/javascript.png": "/Portfolio-Website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-Website/index.html",
     "main.11a12cf4.css.map": "/Portfolio-Website/static/css/main.11a12cf4.css.map",
-    "main.9390539e.js.map": "/Portfolio-Website/static/js/main.9390539e.js.map"
+    "main.82ef947c.js.map": "/Portfolio-Website/static/js/main.82ef947c.js.map"
   },
   "entrypoints": [
     "static/css/main.11a12cf4.css",
-    "static/js/main.9390539e.js"
+    "static/js/main.82ef947c.js"
   ]
 }
