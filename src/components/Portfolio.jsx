@@ -1,63 +1,61 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import portfolioImage from "../assets/portfolio/portfolio-image.png"
-import diceImage from "../assets/portfolio/dice-roller-image.png"
-import memeImage from "../assets/portfolio/meme-generator-image.png"
+import hostelPro from "../assets/hostelPro.png";
+import bloodBank from "../assets/bloodBank.png";
+import pocketPal from "../assets/pocketPal.png";
+import campusCompanion from "../assets/campusCompanion.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: diceImage,
-      text: "Dice-Roller Game"
+      src: hostelPro,
+      text: "VIT Hostel-Pro",
+      link: "https://hostel-pro.vercel.app/" // Add your link here
     },
     {
       id: 2,
-      src: portfolioImage,
-      text: "Portfolio"
+      src: bloodBank,
+      text: "Blood-Bank App",
+      link: "https://blood-bank-app-client.vercel.app/login" // Add your link here
     },
     {
       id: 3,
-      src: memeImage,
-      text: "Meme Generator"
+      src: pocketPal,
+      text: "Pocket-Pal",
+      link: "https://pocket-pal-frontend.vercel.app/" // Add your link here
+    },
+    {
+      id: 4,
+      src: campusCompanion,
+      text: "Campus-Companion- A Virtual University",
+      link: "https://campus-companion-ww3uof.flutterflow.app/" // Add your link here
     },
   ];
 
   return (
     <div
-      name="portfolio"
-      className="bg-gradient-to-b from-black via-black to-amber-600 w-full text-white md:h-screen"
+      name="projects"
+      className="bg-gradient-to-b from-black via-black to-amber-600 w-full text-white min-h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-16">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, text }) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-16">
+          {portfolios.map(({ id, src, text, link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105 w-full h-44"
-              />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
-              </div>
-              <p className="text-center font-bold">{text}</p>
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={src}
+                  alt={text}
+                  className="rounded-md duration-200 hover:scale-105 w-full h-44"
+                />
+                <p className="text-center font-bold py-2">{text}</p>
+              </a>
             </div>
           ))}
         </div>
